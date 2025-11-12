@@ -1,0 +1,26 @@
+name: GideonHelp
+main: wtf.kennn.gideonHelp.GideonHelp
+version: 1.0.0
+api-version: 1.20
+author: Kennn
+website: https://gideonstudio.com
+description: >
+  GideonHelp is a modern help system plugin that replaces the default /help.
+  It allows servers to display commands in Text, Menu or Command mode with full customization.
+
+commands:
+  help:
+    description: Shows the help menu or text depending on the configured mode.
+    usage: /help
+    aliases: [ayuda]
+  gideonhelpadmin:
+    description: Admin command for GideonHelp.
+    usage: /gideonhelpadmin <reload|mode|info>
+    aliases: [gha]
+
+permissions:
+  gideonhelp.admin:
+    description: Gives access to admin commands and system bypass.
+    default: op
+
+softdepend: [PlaceholderAPI]

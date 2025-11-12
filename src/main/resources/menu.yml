@@ -1,0 +1,237 @@
+# ==========================================
+# 🧭 GideonHelp - Help Menu
+# ==========================================
+# Designed for Network Hubs & Lobbies
+# Focused on player information, rules, and support
+# ==========================================
+
+menu:
+  title: "&b&lGIDEONHELP &8┃ &7Help Menu"
+  size: 54 # 6 rows for balanced layout
+
+  items:
+    # ─────────────────────────────
+    # ✨ Decorative Border (Top)
+    # ─────────────────────────────
+    0:
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+      name: " "
+      lore: []
+      command: "none"
+    1:
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+      name: " "
+      lore: []
+      command: "none"
+    2:
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+      name: " "
+      lore: []
+      command: "none"
+    3:
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+      name: " "
+      lore: []
+      command: "none"
+    4:
+      material: CYAN_STAINED_GLASS_PANE
+      name: "&b&lHELP CENTER"
+      lore:
+        - "&7Welcome to &bGideon Network&7!"
+        - "&7Here you’ll find all the essential info."
+      command: "none"
+    5:
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+      name: " "
+      lore: []
+      command: "none"
+    6:
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+      name: " "
+      lore: []
+      command: "none"
+    7:
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+      name: " "
+      lore: []
+      command: "none"
+    8:
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+      name: " "
+      lore: []
+      command: "none"
+
+    # ─────────────────────────────
+    # 📜 Rules & Info
+    # ─────────────────────────────
+    19:
+      material: BOOK
+      name: "&bServer Rules"
+      lore:
+        - "&7Read and follow all the rules"
+        - "&7to keep the community safe."
+        - "&8Click to view the rules."
+      command: "rules"
+
+    20:
+      material: MAP
+      name: "&bAbout the Network"
+      lore:
+        - "&7Information about Gideon Network,"
+        - "&7our history and future updates."
+        - "&8Click to learn more."
+      command: "info"
+
+    21:
+      material: PAPER
+      name: "&bFAQ - Common Questions"
+      lore:
+        - "&7Answers to the most common doubts"
+        - "&7about ranks, games, and features."
+        - "&8Click to open FAQ."
+      command: "faq"
+
+    # ─────────────────────────────
+    # 💎 Ranks & Store
+    # ─────────────────────────────
+    23:
+      material: EMERALD
+      name: "&aRanks & Store"
+      lore:
+        - "&7Support the network by getting ranks"
+        - "&7and exclusive perks!"
+        - "&8Click to visit the store."
+      command: "store"
+
+    24:
+      material: GOLD_INGOT
+      name: "&aRank Benefits"
+      lore:
+        - "&7Discover the advantages of each rank"
+        - "&7and how to upgrade yours."
+        - "&8Click to see benefits."
+      command: "ranks"
+
+    # ─────────────────────────────
+    # 🧰 Support & Security
+    # ─────────────────────────────
+    28:
+      material: ENDER_CHEST
+      name: "&eSupport Center"
+      lore:
+        - "&7Need help? Contact our staff team."
+        - "&7Open a support ticket or report a bug."
+        - "&8Click to access support."
+      command: "support"
+
+    29:
+      material: ANVIL
+      name: "&eReport a Player"
+      lore:
+        - "&7Report cheaters or rule breakers"
+        - "&7directly to the moderation team."
+        - "&8Click to report."
+      command: "report"
+
+    30:
+      material: WRITABLE_BOOK
+      name: "&eAppeal Bans"
+      lore:
+        - "&7Think you were banned unfairly?"
+        - "&7Submit a ban appeal here."
+        - "&8Click to open appeals."
+      command: "appeal"
+
+    # ─────────────────────────────
+    # 🌐 Social Media & Links
+    # ─────────────────────────────
+    32:
+      material: PLAYER_HEAD
+      name: "&bFollow Us"
+      lore:
+        - "&7Stay connected with the community!"
+        - "&fDiscord: &bdiscord.gg/gideon"
+        - "&fTwitter: &b@GideonNetwork"
+        - "&fWebsite: &bgideonstudio.dev"
+      command: "none"
+
+    # ─────────────────────────────
+    # 🎯 Quick Commands / Useful
+    # ─────────────────────────────
+    41:
+      material: COMPASS
+      name: "&aLobby Navigation"
+      lore:
+        - "&7Learn how to use the compass"
+        - "&7to navigate the network hub."
+      command: "none"
+
+    42:
+      material: REDSTONE_TORCH
+      name: "&aCosmetics Guide"
+      lore:
+        - "&7Learn how to use gadgets, pets,"
+        - "&7particles and more!"
+      command: "none"
+
+    43:
+      material: BELL
+      name: "&aFriends & Parties"
+      lore:
+        - "&7Use /friend and /party to"
+        - "&7play together with others."
+      command: "none"
+
+    # ─────────────────────────────
+    # ❌ Close Button
+    # ─────────────────────────────
+    49:
+      material: BARRIER
+      name: "&cClose Menu"
+      lore:
+        - "&7Click to close this help menu."
+      command: "close"
+
+    # ─────────────────────────────
+    # ✨ Decorative Bottom Border
+    # ─────────────────────────────
+    45:
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+      name: " "
+      lore: []
+      command: "none"
+    46:
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+      name: " "
+      lore: []
+      command: "none"
+    47:
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+      name: " "
+      lore: []
+      command: "none"
+    48:
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+      name: " "
+      lore: []
+      command: "none"
+    50:
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+      name: " "
+      lore: []
+      command: "none"
+    51:
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+      name: " "
+      lore: []
+      command: "none"
+    52:
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+      name: " "
+      lore: []
+      command: "none"
+    53:
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+      name: " "
+      lore: []
+      command: "none"
